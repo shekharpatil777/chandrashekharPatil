@@ -1,0 +1,158 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    width: 100%; /* Set the width to ensure aspect ratio is maintained */
+    height: auto;
+  }
+  
+  h1, h2 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #e0e0e0;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .skills-list li {
+    margin-bottom: 10px;
+  }
+  
+  .portfolio-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    float: left;
+  }
+  
+  .portfolio-item img {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .container {
+    /* Optional: Set a width for the container */
+    width: auto;
+  }
+  
+
+  .right-side {
+    float: right;
+ 
+  }
+
+  .left-paragraph {
+    float: left;
+    width: 400px;
+  }
+
+  .skills-list {
+    float: left;
+    width: 400px;
+  }
+
+  
+  .aligned-image {
+    width: 400px; /* Set your desired width */
+    height: 400px; /* Set your desired height */
+    /*float: right; /* Aligns the image to the right */
+  }
+
+  .left-align{
+    float: left;
+    width: 400px;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Ensures the footer stretches across the entire width */
+  }
+
+  .element-with-background {
+    background-image: url("images/head2.png");
+    background-repeat: no-repeat; /* Optional: controls how the image repeats */
+    background-position: center; /* Optional: controls the position of the image */
+    background-size: cover; /* Optional: controls how the image scales */
+    width: 100%; /* Set the width to ensure aspect ratio is maintained */
+    height: auto;
+  }
+
+
+
+
+
+  a.linkedin-icon {
+    font-size: 2em; /* Adjust font size for Font Awesome icon */
+    color: #0077b5; /* Adjust color for Font Awesome icon */
+    transition: color 0.3s ease; /* Optional hover effect */
+  }
+  
+  a.linkedin-icon:hover {
+    color: #00a0eb; /* Optional hover effect color */
+  }
+
+  .sized-image {
+    width: 20px;
+    height: 20px;
+  }
+
+  .full-image {
+    width: 800px;
+    height: 800px;
+  }
+
+  img, svg {
+    max-width: 100%; /* Ensures images/SVGs don't overflow container */
+    height: auto;  /* Maintains aspect ratio */
+  }
+  
+  /* Mobile media query (adjust breakpoint as needed) */
+  @media screen and (max-width: 768px) {
+    img, svg {
+      max-width: 80%; /* Adjust max-width for mobile if needed */
+    }
+  }
+
+  .right-image {
+    width: 400px;
+    height: 250px;
+  }
+  
